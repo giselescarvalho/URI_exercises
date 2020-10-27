@@ -28,7 +28,7 @@ public class uri1011 {
 		rCubo = r*r*r;
 		raio = (4.0/3) * 3.14159 * rCubo;
 				
-		System.out.print("VOLUME = "+df.format(raio));
+		System.out.println("VOLUME = "+df.format(raio));
 	
 	}
 }
