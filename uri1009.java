@@ -14,6 +14,8 @@ package uri;
 import java.io.IOException;
 import java.util.Scanner;
 import java.text.DecimalFormat;
+import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class uri1009 {
 	public static void main (String args[]) throws IOException
@@ -29,7 +31,7 @@ public class uri1009 {
 		
 		double salarioBonus = (vendas*0.15)+(salarioFixo);
 		
-		System.out.println("TOTAL = "+df.format(salarioBonus));
+		System.out.println("TOTAL = R$ "+df.format(salarioBonus));
 		
 	}
 }
